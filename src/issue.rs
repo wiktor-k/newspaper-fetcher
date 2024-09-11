@@ -3,6 +3,7 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct Issue {
     pub document: Document,
+    #[allow(unused)]
     pub name: String,
 }
 
